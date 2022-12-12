@@ -15,3 +15,33 @@ This repo is for study implementing the standards data structures in Typescript 
 - [] Binary Search Tree
 - [] Hash Table
 - [] Graph
+
+##### Other requirements
+
+- [x] Object Oriented Programming
+- [x] TDD
+- [x] Clean Code
+- [x] SOLID
+- [x] CI/CD
+
+##### Technologies
+
+- [x] Typescript
+- [x] Jest
+- [x] Babel
+- [x] Eslint
+- [x] Prettier
+
+
+##### How to run
+
+```bash
+# Install dependencies
+$ yarn
+
+# Run tests
+$ yarn test
+
+# Run coverage
+$ yarn test --coverage
+```
