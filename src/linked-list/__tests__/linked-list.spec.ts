@@ -36,8 +36,6 @@ describe("Linked List", () => {
     list.append(5);
     list.removeByValue(3);
 
-    console.log(list.print());
-
     expect(list.print().join(", ")).toBe("1, 2, 4, 5");
   });
 
