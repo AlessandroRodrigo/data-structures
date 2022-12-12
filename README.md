@@ -4,7 +4,7 @@ This repo is for study implementing the standards data structures in Typescript 
 
 ###### Code coverage
 
-![Alt text](./badges/coverage-branches.svg)![Alt text](./badges/coverage-functions.svg)![Alt text](./badges/coverage-jest%20coverage.svg)![Alt text](./badges/coverage-lines.svg)![Alt text](./badges/coverage-statements.svg)
+![Alt text](./badges/coverage-branches.svg) ![Alt text](./badges/coverage-functions.svg) ![Alt text](./badges/coverage-jest%20coverage.svg) ![Alt text](./badges/coverage-lines.svg) ![Alt text](./badges/coverage-statements.svg)
 
 ##### Data Structures
 
