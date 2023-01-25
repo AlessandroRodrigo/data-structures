@@ -88,5 +88,3 @@ describe("Stack", () => {
     expect(stack.size()).toBe(0);
   });
 });
-
-export {};
