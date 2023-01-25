@@ -9,7 +9,7 @@ This repo is for study implementing the standards data structures in Typescript 
 ##### Data Structures
 
 - [x] Linked List
-- [] Doubly Linked List
+- [x] Doubly Linked List
 - [] Stack
 - [] Queue
 - [] Binary Search Tree

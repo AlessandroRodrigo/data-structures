@@ -6,7 +6,7 @@
   "author": "AlessandroRodrigo <alessandro.fresneda84@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start:dev": "npx nodemon",
+    "start:dev": "tsx watch src/index.ts",
     "build": "rimraf ./build && tsc",
     "start": "npm run build && node build/index.js",
     "test": "jest",
@@ -29,6 +29,8 @@
     "prettier": "^2.8.1",
     "rimraf": "^3.0.2",
     "ts-node": "^10.9.1",
+    "tsup": "^6.5.0",
+    "tsx": "^3.12.2",
     "typescript": "^4.9.4"
   }
 }
