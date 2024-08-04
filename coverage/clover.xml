@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1674622493771" clover="3.2.0">
-  <project timestamp="1674622493771" name="All files">
-    <metrics statements="388" coveredstatements="388" conditionals="104" coveredconditionals="104" methods="37" coveredmethods="37" elements="529" coveredelements="529" complexity="0" loc="388" ncloc="388" packages="4" files="7" classes="7"/>
+<coverage generated="1722799401037" clover="3.2.0">
+  <project timestamp="1722799401037" name="All files">
+    <metrics statements="465" coveredstatements="465" conditionals="126" coveredconditionals="126" methods="44" coveredmethods="44" elements="635" coveredelements="635" complexity="0" loc="465" ncloc="465" packages="5" files="8" classes="8"/>
     <package name="doubly-linked-list">
       <metrics statements="139" coveredstatements="139" conditionals="33" coveredconditionals="33" methods="9" coveredmethods="9"/>
-      <file name="doubly-linked-list-node.entity.ts" path="/home/alessandro/repositories/personal/data-structures/src/doubly-linked-list/doubly-linked-list-node.entity.ts">
+      <file name="doubly-linked-list-node.entity.ts" path="/Users/alessandrorodrigo/Documents/repos/data-structures/src/doubly-linked-list/doubly-linked-list-node.entity.ts">
         <metrics statements="11" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -18,7 +18,7 @@
         <line num="10" count="40" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
       </file>
-      <file name="doubly-linked-list.entity.ts" path="/home/alessandro/repositories/personal/data-structures/src/doubly-linked-list/doubly-linked-list.entity.ts">
+      <file name="doubly-linked-list.entity.ts" path="/Users/alessandrorodrigo/Documents/repos/data-structures/src/doubly-linked-list/doubly-linked-list.entity.ts">
         <metrics statements="128" coveredstatements="128" conditionals="32" coveredconditionals="32" methods="8" coveredmethods="8"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -150,9 +150,92 @@
         <line num="128" count="1" type="stmt"/>
       </file>
     </package>
+    <package name="hash-table">
+      <metrics statements="77" coveredstatements="77" conditionals="22" coveredconditionals="22" methods="7" coveredmethods="7"/>
+      <file name="hash-table.entity.ts" path="/Users/alessandrorodrigo/Documents/repos/data-structures/src/hash-table/hash-table.entity.ts">
+        <metrics statements="77" coveredstatements="77" conditionals="22" coveredconditionals="22" methods="7" coveredmethods="7"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="20" type="stmt"/>
+        <line num="16" count="20" type="stmt"/>
+        <line num="17" count="20" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="16" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="49" type="stmt"/>
+        <line num="20" count="49" type="stmt"/>
+        <line num="21" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="19" type="stmt"/>
+        <line num="27" count="19" type="stmt"/>
+        <line num="28" count="19" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="31" count="9" type="stmt"/>
+        <line num="32" count="9" type="stmt"/>
+        <line num="33" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="43" count="6" type="stmt"/>
+        <line num="44" count="6" type="stmt"/>
+        <line num="45" count="9" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="48" count="4" type="stmt"/>
+        <line num="49" count="4" type="stmt"/>
+        <line num="50" count="4" type="stmt"/>
+        <line num="51" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
+        <line num="54" count="3" type="stmt"/>
+        <line num="55" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="4" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="62" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="69" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="70" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="71" count="2" type="stmt"/>
+        <line num="72" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="73" count="3" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+        <line num="75" count="2" type="stmt"/>
+        <line num="76" count="2" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="linked-list">
       <metrics statements="145" coveredstatements="145" conditionals="42" coveredconditionals="42" methods="12" coveredmethods="12"/>
-      <file name="linked-list-node.entity.ts" path="/home/alessandro/repositories/personal/data-structures/src/linked-list/linked-list-node.entity.ts">
+      <file name="linked-list-node.entity.ts" path="/Users/alessandrorodrigo/Documents/repos/data-structures/src/linked-list/linked-list-node.entity.ts">
         <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="74" type="stmt"/>
@@ -163,7 +246,7 @@
         <line num="7" count="74" type="stmt"/>
         <line num="8" count="74" type="stmt"/>
       </file>
-      <file name="linked-list.entity.ts" path="/home/alessandro/repositories/personal/data-structures/src/linked-list/linked-list.entity.ts">
+      <file name="linked-list.entity.ts" path="/Users/alessandrorodrigo/Documents/repos/data-structures/src/linked-list/linked-list.entity.ts">
         <metrics statements="137" coveredstatements="137" conditionals="40" coveredconditionals="40" methods="10" coveredmethods="10"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -306,11 +389,11 @@
     </package>
     <package name="queue">
       <metrics statements="54" coveredstatements="54" conditionals="16" coveredconditionals="16" methods="8" coveredmethods="8"/>
-      <file name="index.ts" path="/home/alessandro/repositories/personal/data-structures/src/queue/index.ts">
+      <file name="index.ts" path="/Users/alessandrorodrigo/Documents/repos/data-structures/src/queue/index.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
       </file>
-      <file name="queue.entity.ts" path="/home/alessandro/repositories/personal/data-structures/src/queue/queue.entity.ts">
+      <file name="queue.entity.ts" path="/Users/alessandrorodrigo/Documents/repos/data-structures/src/queue/queue.entity.ts">
         <metrics statements="53" coveredstatements="53" conditionals="16" coveredconditionals="16" methods="8" coveredmethods="8"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="10" type="stmt"/>
@@ -369,7 +452,7 @@
     </package>
     <package name="stack">
       <metrics statements="50" coveredstatements="50" conditionals="13" coveredconditionals="13" methods="8" coveredmethods="8"/>
-      <file name="stack.entity.ts" path="/home/alessandro/repositories/personal/data-structures/src/stack/stack.entity.ts">
+      <file name="stack.entity.ts" path="/Users/alessandrorodrigo/Documents/repos/data-structures/src/stack/stack.entity.ts">
         <metrics statements="50" coveredstatements="50" conditionals="13" coveredconditionals="13" methods="8" coveredmethods="8"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="9" type="stmt"/>
