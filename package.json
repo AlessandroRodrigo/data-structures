@@ -10,6 +10,7 @@
     "build": "rimraf ./build && tsc",
     "start": "npm run build && node build/index.js",
     "test": "jest",
+    "test:watch": "jest --watch",
     "test-ci": "jest --ci --coverage"
   },
   "devDependencies": {
