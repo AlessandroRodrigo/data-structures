@@ -13,7 +13,7 @@ This repo is for study implementing the standards data structures in Typescript 
 - [x] Stack
 - [x] Queue
 - [] Binary Search Tree
-- [] Hash Table
+- [x] Hash Table
 - [] Graph
 
 ##### Other requirements
